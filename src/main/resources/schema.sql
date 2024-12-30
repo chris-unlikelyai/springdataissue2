@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS entity
+(
+    id   UUID NOT NULL DEFAULT random_uuid() PRIMARY KEY,
+    name TEXT NOT NULL
+);
